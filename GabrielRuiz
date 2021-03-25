@@ -1,0 +1,98 @@
+'Entradas:se recibe el numero'
+'salidas: hacer la division5'
+'restricciones:no se puede usar el signo de / y //'
+def divisores(num):
+    if num ==0:
+        num= divisor
+        dividir =dividendo
+    elif dividendo == divisor:
+            return 1
+    elif dividendo < divisor:
+             return 0
+    else:
+                return dividir +1(dividendo - divisor, divisor)
+
+
+
+
+
+
+
+
+
+
+'Entradas:se recibe el numero'
+'salidas: hacer la multiplicacion'
+'restricciones:no se puede usar el signo de *'
+
+def multiplicarRecursivo(num,factor):
+    if factor==0:
+        return 0
+    elif factor ==1:
+        return num
+    else:
+        return num + multiplicar(num,factor -1)
+    print(resultado)
+
+
+
+
+
+
+
+
+
+
+'Entradas: es un numero entero'
+'salidas: se divide el numero'
+'restricciones: se debe de dividir sin usar signo de division'
+
+def divisionRecursivo(divisor,dividendo):
+     if dividendo==0:
+        return 0
+     elif dividendo ==1:
+        return divisor
+     else:
+        return divisor - multiplicar(divisor,dividendo +1)
+    
+        print('resultado')
+
+
+'Entradas: se recibe numero flotante'
+'salidas:se cambia a entero'
+'restricciones:no se permiten numeros negativos'
+
+def corrimientoAentero(num,decim):
+    if num and decim:
+        
+       print(float(decim)+float(num))
+
+       
+'Entradas:contar digitos'
+'salidas:contar los digitos de numeros flotantes'
+
+
+def contarDigitosFlotante(num):
+    if(isinstance(num,float)):
+        return 
+    elif(num==0):
+        return 0
+    else:
+        return 1+contarDigito(num//10)
+
+
+
+ 
+    
+
+    
+
+
+
+       
+
+
+
+
+    
+    
